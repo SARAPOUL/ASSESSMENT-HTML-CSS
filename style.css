@@ -127,6 +127,10 @@ nav {
     flex-direction: row;
 }
 
+.content-list:hover {
+    background-color: lightgray
+}
+
 .content-list-img {
     width: 35%;
     margin: 16px
