@@ -144,11 +144,11 @@ nav {
     justify-content: center;
 }
 
-.content-list-content>p {
+.content-list-content > p {
     margin-top: 8px;
 }
 
-.content-list-content>a {
+.content-list-content > a {
     margin-top: 8px;
     text-decoration: none;
     cursor: pointer;
