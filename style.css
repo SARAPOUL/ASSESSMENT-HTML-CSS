@@ -4,9 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #505050
 }
+
 hr {
     color: lightgray;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -51,7 +53,7 @@ nav {
 
 .nav-menu li {
     float: left;
-    
+
 }
 
 .nav-menu li a {
@@ -79,7 +81,7 @@ nav {
     margin: 32px 0 32px 24px;
 }
 
-.one > .content {
+.one>.content {
     width: 40%;
     display: flex;
     align-items: flex-start;
@@ -87,7 +89,7 @@ nav {
     justify-content: center;
 }
 
-.one > div > button {
+.one>div>button {
     position: relative;
     justify-self: center;
     background-color: #505050;
@@ -142,9 +144,15 @@ nav {
     justify-content: center;
 }
 
-.content-list-content > a {
+.content-list-content>p {
+    margin-top: 8px;
+}
+
+.content-list-content>a {
+    margin-top: 8px;
     text-decoration: none;
     cursor: pointer;
+    color: #3582c4
 }
 
 .three {
@@ -197,21 +205,24 @@ nav {
     justify-content: flex-start;
 
 }
-.four-video{
+
+.four-video {
     width: 60%;
     margin: 0 0 32px 0;
 }
-.four-video > video {
+
+.four-video>video {
     width: 100%;
 }
-.four-content{
+
+.four-content {
     width: 40%;
     margin: 0 0 32px 0;
 }
-footer{
+
+footer {
     display: flex;
-    margin:16px 24px;
+    margin: 16px 24px;
     height: 48px;
     justify-content: space-between
-
 }
